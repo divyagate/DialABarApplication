@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000699455731",
+    "firebase_url": "https://myproject-7ee15.firebaseio.com",
+    "project_id": "myproject-7ee15",
+    "storage_bucket": "myproject-7ee15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000699455731:android:9d690ad8fb8b83c3fd6f86",
+        "android_client_info": {
+          "package_name": "com.example.dialabarapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000699455731-7q0o7fj47h8v622eq8ln9auu6ebhf9ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRnYhwSf4Hku8zoBqyfPKseo5Afp60r5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000699455731-7q0o7fj47h8v622eq8ln9auu6ebhf9ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
