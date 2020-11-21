@@ -28,6 +28,17 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation platform('com.google.firebase:firebase-bom:26.1.0')
     implementation 'com.google.firebase:firebase-analytics'
+    // fire database reg
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+    // fire database reg
+    // fire database storage for images
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    // fire database storage for images
+    
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'io.paperdb:paperdb:2.7.1'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
