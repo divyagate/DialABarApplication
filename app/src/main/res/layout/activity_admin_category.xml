@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Alchoholic Product"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/beer"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/beericon"
+            />
+
+        <ImageView
+            android:id="@+id/whisky"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/whisky"
+            />
+
+        <ImageView
+            android:id="@+id/wine"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/wine"
+            />
+
+        <ImageView
+            android:id="@+id/vodka"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vodka"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
